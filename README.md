@@ -2,7 +2,7 @@
 
 i have used three 3rd party frameworks in this application and its written in swift 4
 
-OPEN THE "home24.xcworkspace" FOR RUNGIN THE APPLICATION
+OPEN THE "home24.xcworkspace"  FILE FOR RUNGIN THE APPLICATION
 
 1) Alamofire :- Alamofire focused specifically on core networking implementations, additional component libraries have been created by the  Alamofire Software Foundation to bring additional functionality to the Alamofire ecosystem.
 
