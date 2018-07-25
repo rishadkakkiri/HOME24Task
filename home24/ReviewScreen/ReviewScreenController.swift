@@ -49,8 +49,6 @@ class ReviewScreenController: UIViewController,UICollectionViewDelegate,UICollec
         
         // CELL BACKGROUND VIEW ALTRATION
         cell.CellBackgroundView.layer.cornerRadius=5
-        cell.CellBackgroundView.layer.borderWidth=0.5
-        cell.CellBackgroundView.layer.borderColor=UIColor.lightGray.cgColor
         cell.CellBackgroundView.layer.shadowColor=UIColor.lightGray.cgColor
         cell.CellBackgroundView.layer.shadowOpacity=0.5
         cell.CellBackgroundView.layer.shadowOpacity=10.0

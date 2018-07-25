@@ -151,17 +151,15 @@ class SelectionScreenController: UIViewController,UICollectionViewDelegate,UICol
     func ShowReviewButton()
     {
         
-        UIView.animate(withDuration:0.2, animations: {
-            DispatchQueue.main.async {
+        
+        UIView.animate(withDuration:0.5, animations: {
+
                 self.ReviewBtnHeightConstraints.constant=59
                 self.BtnReviewOutlet.alpha=1
                 self.view.layoutIfNeeded()
                 
                 
-            }
-        }, completion: {
-            (value: Bool) in
-            
+
         })
         
     }
